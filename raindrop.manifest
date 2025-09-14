@@ -1,0 +1,11 @@
+application "treemd-mcp-server" {
+  # MCP server providing navigation and request handling tools
+  service "treemd-mcp" {
+    visibility = "public"
+    # Express server on port 3001 handling MCP protocol
+    # Provides three tools:
+    # - navigate: Navigate to specific routes
+    # - sendRequest: Send API requests
+    # - startHere: Initialize with user intention
+  }
+}

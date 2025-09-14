@@ -1,0 +1,19 @@
+{
+  "name": "treemd-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js",
+    "start": "node ../../dist/treemd-mcp/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.18.0",
+    "@workos-inc/authkit-nextjs": "^2.7.0",
+    "express": "^5.1.0",
+    "jose": "^6.1.0",
+    "zod": "3.23"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  }
+}
