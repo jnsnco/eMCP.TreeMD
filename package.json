@@ -1,0 +1,25 @@
+{
+  "name": "mcp",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "bun build index.ts --outdir dist --target bun",
+    "dev": "bun run index.ts",
+    "start": "bun run index.ts",
+    "start:prod": "bun run dist/index.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.18.0",
+    "@workos-inc/authkit-nextjs": "^2.7.0",
+    "express": "^5.1.0",
+    "jose": "^6.1.0",
+    "zod": "3.23"
+  }
+}
